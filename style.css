@@ -121,6 +121,7 @@ button, button:active, button:focus, .btn.active.focus,
     box-shadow: 0px 15px 10px -15px #111;
 }
 
+
 .topText {
     position: absolute;
     top: 20%;
@@ -565,6 +566,96 @@ footer a {
     }
   }
 
+
+ /* for about us page */
+ .aboutBackground {
+  height: 60vh;
+  background-image: url(".//images/bgBike.png"), linear-gradient(rgba(0,0,0,0.5),rgba(33, 11, 11, 0.3));
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0px 15px 10px -15px #111;
+}
+
+.aboutText {
+  position: absolute;
+  bottom: 20%;
+  left: 40%;
+  color: white;
+}
+
+.aboutText h1 {
+  font-weight: 900;
+}
+
+.aboutUs {
+  background-color: whitesmoke;
+}
+
+.aboutUs h5 {
+  font-weight: 700;
+}
+
+.aboutUs p {
+  line-height: 1.5rem;
+  word-spacing: 3px;
+  letter-spacing: 4px;
+}
+
+.inside {
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  width: 5vw;
+  height: 5vh;
+  background-color: white;
+  border-bottom-right-radius: 2rem;
+  
+}
+
+.card {
+  box-shadow: 0px -15px 10px -15px #111,
+              0px 15px 10px -15px #111;
+}
+
+.quoteBg {
+  width: 100vw;
+  height: 53vh;
+  background-color: #111;
+  box-shadow: 0px 15px 10px -15px #111,
+              0px -15px 10px -15px #111;
+}
+
+.quoteBg h5 {
+  font-weight: 700;
+}
+
+
+/* for get quote */
+
+.getQuote {
+  width: 100vw;
+  background-color: whitesmoke;
+  box-shadow: 0px 15px 10px -15px #111;
+}
+
+.getQuote h5 {
+  font-weight: 900;
+}
+
+
+/* for services */
+
+.services {
+  width: 100vw;
+  background-color: whitesmoke;
+}
+
+
+/* media query */
+
 @media only screen and (max-width: 988.1px) {
     .navRectangle.active {
         animation: navSlide 1s ease-in;
@@ -665,6 +756,16 @@ footer a {
         font-style: italic;
         text-align: center;
         font-size: 2rem;
+      }
+
+
+
+      /* for about page */
+      .aboutText {
+        position: absolute;
+        bottom: 20%;
+        left: 10%;
+        color: white;
       }
 
 }
