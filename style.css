@@ -653,6 +653,15 @@ footer a {
   background-color: whitesmoke;
 }
 
+/* for contact page  */
+
+.formBg {
+  background-color: rgba(44, 41, 41, 0.4);
+  width: 80vw;
+  padding: 2rem;
+  border-radius: 2rem;
+}
+
 
 /* media query */
 

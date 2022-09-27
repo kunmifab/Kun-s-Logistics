@@ -47,7 +47,7 @@ $(document).ready(function(){
     
 
     $(".navbar-toggler").click(function(){
-        $(".navbar-toggler i").toggleClass("fa-close fa-motorcycle");
+        $(".navbar-toggler i").toggleClass("fa-close fa-bars-staggered");
         $(".navbar-toggler i").toggleClass("text-danger text-primary");
         $("#navbarSupportedContent").toggleClass("active");
       });
