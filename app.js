@@ -51,4 +51,10 @@ $(document).ready(function(){
         $(".navbar-toggler i").toggleClass("text-danger text-primary");
         $("#navbarSupportedContent").toggleClass("active");
       });
+
+      $(".whatsappBtn").click(function(){
+        $(".whatsappBtn i").toggleClass("fa-close fa-whatsapp");
+        $(".whatsappBtn i").toggleClass("fas fa-brands");
+        $(".whatsappBg").toggleClass("active");
+      }); 
   });
